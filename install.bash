@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-sudo apt-get install python-pip;
-
-pip install watchdog;
-
 chmod +x uploadsite;
 
 cp uploadsite /etc/init.d/;
